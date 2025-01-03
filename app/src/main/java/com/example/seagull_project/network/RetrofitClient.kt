@@ -1,4 +1,4 @@
-package com.example.seagull_project
+package com.example.seagull_project.network
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

@@ -22,7 +22,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.seagull_project.data.model.StudentDTO
-import com.example.seagull_project.viewmodel.StudentViewModel
+import com.example.seagull_project.ui.viewmodel.StudentViewModel
 
 @Composable
 fun HomeScreen(navController: NavController) {

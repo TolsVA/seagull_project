@@ -1,4 +1,4 @@
-package com.example.seagull_project
+package com.example.seagull_project.data.model
 
 data class Student(
     val id: Int,

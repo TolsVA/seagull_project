@@ -1,5 +1,6 @@
-package com.example.seagull_project
+package com.example.seagull_project.network
 
+import com.example.seagull_project.data.model.Student
 import com.example.seagull_project.data.model.StudentDTO
 import okhttp3.ResponseBody
 import retrofit2.Response

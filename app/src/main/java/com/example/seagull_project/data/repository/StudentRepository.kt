@@ -1,7 +1,7 @@
-package com.example.seagull_project.repository
+package com.example.seagull_project.data.repository
 
-import com.example.seagull_project.RetrofitClient
-import com.example.seagull_project.Student
+import com.example.seagull_project.network.RetrofitClient
+import com.example.seagull_project.data.model.Student
 import com.example.seagull_project.data.model.StudentDTO
 
 class StudentRepository {

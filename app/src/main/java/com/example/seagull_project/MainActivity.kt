@@ -7,11 +7,11 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.navigation.compose.*
-import com.example.seagull_project.repository.StudentRepository
+import com.example.seagull_project.data.repository.StudentRepository
 import com.example.seagull_project.ui.AddStudentScreen
 import com.example.seagull_project.ui.HomeScreen
 import com.example.seagull_project.ui.StudentsListScreen
-import com.example.seagull_project.viewmodel.StudentViewModel
+import com.example.seagull_project.ui.viewmodel.StudentViewModel
 
 class MainActivity : ComponentActivity() {
     private val studentRepository = StudentRepository()
