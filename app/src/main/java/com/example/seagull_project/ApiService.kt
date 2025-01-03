@@ -11,6 +11,9 @@ import retrofit2.http.POST
 import retrofit2.http.PUT
 
 interface ApiService {
+    @GET("api/v1/students")
+    suspend fun getStudents(): Response<List<StudentDTO>>
+
     @POST("api/v1/students/save_student")
     suspend fun saveStudent(@Body student: StudentDTO): Response<ResponseBody>  // ResponseBody для простой строки
 
